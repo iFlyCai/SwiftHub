@@ -28,9 +28,6 @@ class IssueViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        bannerView.isHidden = true
-
         /// Add the `ConversationViewController` as a child view controller
         guard let viewModel = viewModel as? IssueViewModel else { return }
         conversationVC.viewModel = viewModel.issueCommentsViewModel()

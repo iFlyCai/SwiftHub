@@ -248,8 +248,6 @@ class SearchViewController: TableViewController {
             }
         }
 
-        bannerView.isHidden = true
-
         tableView.register(R.nib.trendingRepositoryCell)
         tableView.register(R.nib.trendingUserCell)
         tableView.register(R.nib.repositoryCell)

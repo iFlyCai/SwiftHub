@@ -2,39 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
-	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
-	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>296465096839-b8qrqcd5ti9gdvpg8as3qgm8g5lj8nsi.apps.googleusercontent.com</string>
+	<string>601608097616-vevjc92g0j4vt95nf0gc1qtchvs14q42.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.296465096839-b8qrqcd5ti9gdvpg8as3qgm8g5lj8nsi</string>
+	<string>com.googleusercontent.apps.601608097616-vevjc92g0j4vt95nf0gc1qtchvs14q42</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAAMzsV1IL1Cr683cboMdv4ivILecmTBAw</string>
+	<string>AIzaSyDwRf7RsRGAiGq2GgucumNIIekTyY3BEzs</string>
 	<key>GCM_SENDER_ID</key>
-	<string>296465096839</string>
+	<string>601608097616</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.public.SwiftHub</string>
+	<string>com.ios-git-app.ifly</string>
 	<key>PROJECT_ID</key>
-	<string>swifthub-39db2</string>
+	<string>ios-git-app</string>
 	<key>STORAGE_BUCKET</key>
-	<string>swifthub-39db2.appspot.com</string>
+	<string>ios-git-app.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:296465096839:ios:fee5cc7e47b530f1</string>
+	<string>1:601608097616:ios:a27c3de8c1a5dc7b132655</string>
 	<key>DATABASE_URL</key>
-	<string>https://swifthub-39db2.firebaseio.com</string>
+	<string>https://ios-git-app.firebaseio.com</string>
 </dict>
 </plist>

@@ -124,7 +124,6 @@ class RepositoryViewController: TableViewController {
         tableView.register(R.nib.repositoryDetailCell)
         tableView.register(R.nib.languagesCell)
         tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 90, right: 0)
-        bannerView.isHidden = true
     }
 
     override func bindViewModel() {

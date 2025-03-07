@@ -201,7 +201,6 @@ class LoginViewController: ViewController {
         stackView.addArrangedSubview(basicLoginStackView)
         stackView.addArrangedSubview(personalLoginStackView)
         stackView.addArrangedSubview(oAuthLoginStackView)
-        bannerView.isHidden = true
     }
 
     override func bindViewModel() {

@@ -29,7 +29,6 @@ import Mixpanel
 import FirebaseCore
 import DropDown
 import Toast_Swift
-import GoogleMobileAds
 
 typealias DropDownView = DropDown
 
@@ -136,7 +135,6 @@ class LibsManager: NSObject {
     }
 
     func setupAds() {
-        GADMobileAds.sharedInstance().start(completionHandler: nil)
     }
 }
 
