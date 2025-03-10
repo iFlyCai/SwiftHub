@@ -71,7 +71,7 @@ target 'SwiftHub' do
     pod 'CocoaLumberjack/Swift', '~> 3.0'  # 高效的日志记录库
 
     # 分析工具
-    pod 'Mixpanel-swift', '~> 4.0'  # Mixpanel 的 iOS SDK，用于分析用户行为
+#    pod 'Mixpanel-swift', '~> 4.0'  # Mixpanel 的 iOS SDK，用于分析用户行为
 
     # Firebase 服务
     pod 'FirebaseAnalytics', '~> 10.0'  # Firebase Analytics，用于收集应用内的使用数据
