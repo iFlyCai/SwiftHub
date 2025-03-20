@@ -14,9 +14,9 @@ enum Keys {
 
     var apiKey: String {
         switch self {
-        case .github: return "5a39979251c0452a9476bd45c82a14d8e98c3fb3"
+        case .github: return "51a39979251c0452a9476bd45c82a14d8e98c3fb3"
         case .mixpanel: return "9cad447c774377182ca16b636ec3063c"
-        case .adMob: return "ca-app-pub-3940256099942544/2934735716"
+        case .adMob: return "ca-app-pub-9300480979262150~4187852552"
         }
     }
 

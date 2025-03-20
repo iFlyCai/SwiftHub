@@ -62,9 +62,16 @@ final class Application: NSObject {
             }
             // 检查 token 是否有效
             let authorized = self?.authManager.token?.isValid ?? false
-            let viewModel = HomeTabBarViewModel(authorized: authorized, provider: provider)  // 创建 HomeTabBar 视图模型
-            // 使用导航器展示 TabBar 页面
-            self?.navigator.show(segue: .tabs(viewModel: viewModel), sender: nil, transition: .root(in: window))
+            if authorized{
+                // 使用导航器展示 TabBar 页面
+                let viewModel = HomeTabBarViewModel(authorized: authorized, provider: provider)  // 创建 HomeTabBar 视图模型
+                self?.navigator.show(segue: .tabs(viewModel: viewModel), sender: nil, transition: .root(in: window))
+            }else{
+                let viewModel = HomeTabBarViewModel(authorized: authorized, provider: provider)  // 创建 HomeTabBar 视图模型
+                let loginViewModel = LoginViewModel(provider: provider)
+                
+                self?.navigator.show(segue: .tabs(viewModel: viewModel), sender: nil, transition: .root(in: window))
+            }
         }
     }
 
